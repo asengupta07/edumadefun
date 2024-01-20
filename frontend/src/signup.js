@@ -4,8 +4,8 @@ import './signup.css'; // Make sure to import your CSS file
 const App = () => {
   return (
     <>
-      <a href="https://front.codes/" className="logo" target="_blank">
-        <img src="https://assets.codepen.io/1462889/fcy.png" alt="" />
+      <a href="/" className="logo">
+        <img className="mandi" src="https://cdn.discordapp.com/attachments/1169346758636224614/1197881967497195600/WhatsApp_Image_2024-01-19_at_17.58.11_4acfc064-removebg-preview.png?ex=65bce184&is=65aa6c84&hm=91ca55bca32015b1e8e9c3d74ed4cb677d9b6d67f921d5366b6ea5f23ebab2c4&" alt="" />
       </a>
 
       <div className="section">

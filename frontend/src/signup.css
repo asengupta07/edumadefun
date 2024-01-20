@@ -12,6 +12,9 @@ body{
 	background-color: #1f2029;
 	overflow-x: hidden;
 }
+.mandi {
+  width: 100px;
+}
 a {
 	cursor: pointer;
   transition: all 200ms linear;

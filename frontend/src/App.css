@@ -5,13 +5,14 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/890/539/769/science-mathematics-equations-3d-wallpaper-preview.jpg');
+    background-image: url('/home/arnabs/code/emf/frontend/public/linebg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
 .chat-interface {
+    /* border:#3f206e 2px; */
     display: flex;
     flex-direction: column;
     height: 75vh;
@@ -99,8 +100,8 @@
     height: 75vh;
     width: 1000px;
     
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
     border-radius: 5%;
 }
 
