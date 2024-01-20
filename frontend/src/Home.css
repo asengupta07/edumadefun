@@ -166,7 +166,8 @@ background-image: url("https://media.discordapp.net/attachments/1198169629646925
 
 #section3 {
     display: flex;
-    height: 100vh;
+    justify-content: center;
+    height: 80vh;
 background-image: url("https://media.discordapp.net/attachments/1198169629646925824/1198223368982376488/backgroundlandingpage.jpg?ex=65be1f79&is=65abaa79&hm=d693d79777a8f5f6442f1f4b0b2dd85381ca014a19a0c60abd796bf80d8dc3fa&=&format=webp&width=899&height=599");
     background-size: cover;
     background-repeat: no-repeat;
@@ -263,4 +264,11 @@ background-image: url("https://media.discordapp.net/attachments/1198169629646925
     width: auto;
     position: relative;
     left: 50px;
+}
+.vr{
+    position: relative;
+    left: 30px;
+    background-color: black;
+    opacity: 100%;
+    width: 2px;
 }
