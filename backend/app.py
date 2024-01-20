@@ -8,44 +8,44 @@ from werkzeug.security import generate_password_hash, check_password_hash
 app = Flask(__name__)
 CORS(app, origins='http://localhost:3000')
 
-db = SQL("sqlite:///database.db")
+db = SQL("sqlite:///edumadefun.db")
 
 
-@app.route("/register", methods=["GET", "POST"])
+@app.route("/register", methods=["GET", "POST", "OPTIONS"])
 def register():
     if request.method == "POST":
-        email = request.form.get("email")
-        username = request.form.get("username")
-        password = request.form.get("password")
+        data = request.get_json()
+        email = data.get("logemail")
+        username = data.get("logname")
+        password = data.get("logpass")
         if not username:
             return jsonify({"success": False, "message": "Username not provided"})
         elif not password:
             return jsonify({"success": False, "message": "Password not provided"})
-        elif db.execute("SELECT * FROM users WHERE username = :username", username=username):
-            return jsonify({"success": False, "message": "Username already exists"})
         elif db.execute("SELECT * FROM users WHERE email = :email", email=email):
             return jsonify({"success": False, "message": "Email already exists"})
         else:
             password = generate_password_hash(password)
-            db.execute("INSERT INTO users (username, password) VALUES (:username, :password)", username=username, password=password)
+            db.execute("INSERT INTO users (username, email, password) VALUES (:username, :email, :password)", username=username, email=email, password=password)
             return jsonify({"success": True, "message": "User created successfully"})
     else:
         return jsonify({"success": False, "message": "Only POST requests allowed"})
     
 
-@app.route("/login", methods=["GET", "POST"])
+@app.route("/login", methods=["GET", "POST", "OPTIONS"])
 def login():
     if request.method == "POST":
-        username = request.form.get("username")
-        password = request.form.get("password")
-        if not username:
+        data = request.get_json()
+        email = data.get("logemail")
+        password = data.get("logpass")
+        if not email:
             return jsonify({"success": False, "message": "Username not provided"})
         elif not password:
             return jsonify({"success": False, "message": "Password not provided"})
-        elif not db.execute("SELECT * FROM users WHERE username = :username", username=username):
+        elif not db.execute("SELECT * FROM users WHERE email = :email", email=email):
             return jsonify({"success": False, "message": "Username does not exist"})
         else:
-            user = db.execute("SELECT * FROM users WHERE username = :username", username=username)[0]
+            user = db.execute("SELECT * FROM users WHERE email = :email", email=email)[0]
             if check_password_hash(user["password"], password):
                 return jsonify({"success": True, "message": "Login successful"})
             else:
@@ -54,7 +54,7 @@ def login():
         return jsonify({"success": False, "message": "Only POST requests allowed"})
     
 
-@app.route("/questions", methods=["GET", "POST"])
+@app.route("/questions", methods=["GET", "POST", "OPTIONS"])
 def math():
     if request.method == "GET":
         sub = request.args.get("sub")
@@ -72,4 +72,4 @@ def test():
     response = random.sample([q for q in data if q['level']==2], 10)
     print(json.dumps(response, indent=4))
 
-app.run(debug=True)
+app.run(debug=False)
