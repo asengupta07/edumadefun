@@ -28,14 +28,14 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="#section1">About Us</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" aria-current="page" href="#section2">Policy</a>
+          <a class="nav-link active" aria-current="page" href="#section2">Policy</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" href="#section3">Go Premium</a>
+          <a class="nav-link active" href="#section3">Go Premium</a>
         </li>
         <li class="nav-item me-3">
           <a
-            class="nav-link"
+            class="nav-link active"
             href="#section4"
             role="button"
           >
@@ -43,8 +43,8 @@ const Navbar = () => {
           </a>
           
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+        <li class="nav-item signupbut">
+          <a class="nav-link active" href="/signup" tabindex="-1" aria-disabled="true">Sign Up</a>
         </li>
       </ul>
     </div>
@@ -141,13 +141,13 @@ const LandingPage = () => {
           <div className='PointsPencils d-flex flex-column'>
 
           <div className='policypencil'>
-            <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+            <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+          </div>
+          <div className='policyp encil'>
+            <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
           </div>
           <div className='policypencil'>
-            <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
-          </div>
-          <div className='policypencil'>
-            <img src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+            <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
           </div>
           </div>
         </div>
