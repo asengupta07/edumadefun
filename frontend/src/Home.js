@@ -28,7 +28,7 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="#section1">About Us</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link active" aria-current="page" href="#section2">Policy</a>
+          <a class="nav-link active" aria-current="page" href="#section2">Know More</a>
         </li>
         <li class="nav-item me-3">
           <a class="nav-link active" href="#section3">Go Premium</a>
@@ -43,10 +43,11 @@ const Navbar = () => {
           </a>
           
         </li>
-        <li class="nav-item signupbut">
-          <a class="nav-link active" href="/signup" tabindex="-1" aria-disabled="true">Sign Up</a>
-        </li>
+        
+        
       </ul>
+      <a class="nav-link active" href="/signup" tabindex="-1" aria-disabled="true">Sign Up</a>
+
     </div>
   </div>
 </nav>
@@ -137,7 +138,7 @@ const LandingPage = () => {
         <div className="d-flex align-items-center mx-auto">
         <div className='HeaderPolicy d-flex justify-content-center flex-column'>
           <img className='daag' src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882245298540685/WhatsApp_Image_2024-01-19_at_17.59.20_e00e337d-removebg-preview.png?ex=65bce1c6&is=65aa6cc6&hm=3364ae21cf9f3d4c5579294d226f7defdee05eb194bb14351888b2a93cf2cd63&" alt="" />
-          <div className='PolicyHead'>Policy</div>
+          <div className='PolicyHead'>Know More</div>
           <div className='PointsPencils d-flex flex-column'>
 
           <div className='policypencil d-flex flex-row'>
@@ -151,6 +152,7 @@ const LandingPage = () => {
             
             </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+            <div className='AboutTextSub'>Thorough our platform we encourage students of classes 1 to 10 to engage in a fun quiz and unlock exciting offers</div>
           </div>
           <div className='policypencil d-flex flex-row'>
           <div className='vr'>
@@ -162,7 +164,16 @@ const LandingPage = () => {
         </div>
 </div>
         </div>
-        <div id="section3"></div>
+        <div id="section3">
+          <div className='d-flex justify-content-center align-items-center'>
+          <div className='HeaderPolicy d-flex justify-content-center flex-column'>
+          <img className='daag' src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882245298540685/WhatsApp_Image_2024-01-19_at_17.59.20_e00e337d-removebg-preview.png?ex=65bce1c6&is=65aa6cc6&hm=3364ae21cf9f3d4c5579294d226f7defdee05eb194bb14351888b2a93cf2cd63&" alt="" />
+          <div className='PolicyHead'>For Tutors</div>
+          <a class="btn btn-primary" href="/PdfUpload" role="button">Upload PDF</a>
+          </div>
+        
+          </div>
+        </div>
         <div id="section4"></div>
       </div>
     );
