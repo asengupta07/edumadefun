@@ -42,7 +42,7 @@ const ChatInterface = () => {
         const lowercasePrompt = prompt.toLowerCase();
         if ((lowercasePrompt.includes('hello') || lowercasePrompt.includes('hi') || lowercasePrompt.includes('hey') || lowercasePrompt.includes('hola') || lowercasePrompt.includes('sup') || lowercasePrompt.includes('yo') || lowercasePrompt.includes('wassup')) && i === 0) {
             setState({ ...state, i: 1 });
-            return "Hey there young nigga! Would you like to take a test?";
+            return "Hey there! Would you like to take a test?";
         }
         else if (i === 0) {
             setState({ ...state, i: 1 });
@@ -58,7 +58,29 @@ const ChatInterface = () => {
             return "I'm sorry, I don't understand. Let us start over, shall we! Would you like to take a test?";
         }
     };
+    const points = (points, email) =>{
+        fetch(`https://edumadefun.proxy.beeceptor.com/points?points=${points}&email=${email}`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+    }
 
+    const get_points = async (email) => {
+        await fetch(`https://edumadefun.proxy.beeceptor.com/get_points?email=${email}`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        }).then((res) => {
+            console.log(res);
+            return res.json();
+        }).then((data) => {
+            console.log(data.points);
+            return data.points;
+        });
+    }
 
     const getAiResponse = async (prompt) => {
         const { i, lvl, sub, data, qn, score } = state;
@@ -147,7 +169,7 @@ const ChatInterface = () => {
         if (i === 10) {
             let rand = 0;
             console.log(rand);
-            setState({ ...state, i: 0, lvl: 0, score: 0, sub: '', qn: 0, data: [] });
+            setState({ ...state, i: 11 });
             if (lvl === 1) {
                 rand = Math.floor(Math.random() * (score)) + 1;
                 console.log(rand);
@@ -162,7 +184,20 @@ const ChatInterface = () => {
                 rand = Math.floor(Math.random() * (score + 6)) + 7;
             }
             console.log(rand);
-            return "Your score is " + score + `. Thanks for playing!\nYou just won ${rand} points!`;
+            points(rand, localStorage.getItem('USER'));
+            let p = await get_points(localStorage.getItem('USER'));
+            console.log(p);
+            return "Your score is " + score + `. Thanks for playing!\nYou just won ${rand} points! You have 7 points now! Would you like to retake the quiz?`;
+        }
+        if(i === 11){
+            if ((lowercasePrompt.includes('yes') || lowercasePrompt.includes('sure') || lowercasePrompt.includes('ok') || lowercasePrompt.includes('okay') || lowercasePrompt.includes('yeah') || lowercasePrompt.includes('yep') || lowercasePrompt.includes('yup') || lowercasePrompt.includes('yea'))) {
+                setState({ ...state, i: 3, score: 0 });
+                return "Great! Let's begin. What difficulty level would you like to choose?";
+            }
+            else{
+                setState({ ...state, i: 0, score: 0 });
+                return "Okay, see you later!";
+            }
         }
         else {
             return "I'm sorry, I don't understand. Let us start over, shall we! Would you like to take a test?";
@@ -178,7 +213,7 @@ const ChatInterface = () => {
             <div className="chat-interface">
                 <div className="chat-messages" ref={messagesContainerRef}>
                     <div key={0} className={'message ai'}>
-                        Hello, I am a chatbot. Ask me anything!
+                        Welcome to EMF Quiz Bot! Lets Play!
                     </div>
                     {messages.map((message, index) => (
                         <div key={index} className={`message ${message.sender}`}>
@@ -193,6 +228,7 @@ const ChatInterface = () => {
                         onChange={handleInputChange}
                         onKeyDown={handleKeyPress}
                         placeholder="Type your message..."
+                        className='inp'
                     />
                     <button onClick={handleSendMessage}>Send</button>
                 </div>

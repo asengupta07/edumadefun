@@ -64,7 +64,32 @@ def math():
             data = json.load(f)
         response = random.sample([q for q in data if q['level']==lvl], 10)
         return jsonify(response)
+
+
+@app.route("/points", methods=["GET", "POST", "OPTIONS"])
+def points():
+    if request.method == "GET":
+        p = int(request.args.get("points"))
+        email = request.args.get("email")
+        if not db.execute('SELECT points FROM points WHERE email = :email', email=email):
+            db.execute('INSERT INTO points(email, points) VALUES (?,?)', email, 0)
+        curr_points = db.execute('SELECT points FROM points WHERE email = :email', email=email)
+        print(curr_points)
+        p += curr_points[0]['points']
+        db.execute('UPDATE points SET points = ? WHERE email = ?', p, email)
+        return jsonify({"success": True})
     
+
+@app.route("/get_points", methods=['GET', 'POST', 'OPTIONS'])
+def get_points():
+    if request.method == 'GET':
+        email = request.args.get('email')
+        curr_points = db.execute('SELECT points FROM points WHERE email = :email', email=email)
+        print(curr_points)
+        return jsonify({"points" :curr_points[0]['points']})
+        
+        
+        
 
 def test():
     with open("dataset/math.json", "r") as f:

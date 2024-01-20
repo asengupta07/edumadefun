@@ -5,11 +5,14 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-image: url('https://media.discordapp.net/attachments/1198169629646925824/1198225591447601242/linebg.jpg?ex=65be218a&is=65abac8a&hm=eb4209c01b91c1d46f039bce8ec0030427165bd93c7a44344d22806a3a48fd8e&=&format=webp&width=442&height=664');
+    background-image: url('https://media.discordapp.net/attachments/1198169629646925824/1198231427066642502/image.png?ex=65be26fa&is=65abb1fa&hm=43be1436d1cf9cca06be8092d10c2e648534a2952c5067111e083576a6a31095&=&format=webp&quality=lossless&width=1440&height=603');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
+}
+.inp{
+    color: black;
 }
 .chat-interface {
     /* border:#3f206e 2px; */
@@ -61,11 +64,11 @@
 .chat-input input[type="text"] {
     flex: 1;
     padding: 5px;
-    border: 1px solid lightgray;
+    border: 1px solid black;
     border-radius: 5px;
     margin-right: 10px;
     background-color: #3f206e;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 5px #8b5fc1;
     font-size: 16px; /* Adjust the font size as needed */
 }
@@ -108,7 +111,7 @@
 .chat-input {
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(10px);
     border-top: 1px solid lightgray;
     padding: 10px;
@@ -123,7 +126,7 @@
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    color: #fff;
+    color: #000000;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     font-size: 16px; /* Adjust the font size as needed */
 }
