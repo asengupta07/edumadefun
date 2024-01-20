@@ -23,7 +23,7 @@
 .pencil {
     
     position: relative;
-    top: 115px;
+    top: -15px;
     left: 39px;
     width: 250px;
     height: 250px;
@@ -32,8 +32,8 @@
 }
 .bulb {
     position: relative;
-    bottom: 101px;
-    right: 89px;
+    bottom: -15px;
+    right: 6px;
     width: 160px;
     height: 160px;
     animation: rotatebulb 2s infinite alternate, fade-inst 4s;
@@ -130,7 +130,7 @@
     
 .first-view{
     display: flex;
-    background-image: url("https://media.discordapp.net/attachments/1198169629646925824/1198223368982376488/backgroundlandingpage.jpg?ex=65be1f79&is=65abaa79&hm=d693d79777a8f5f6442f1f4b0b2dd85381ca014a19a0c60abd796bf80d8dc3fa&=&format=webp&width=899&height=599");
+    background-image: url("https://cdn.discordapp.com/attachments/1198169629646925824/1198232729754538056/image.png?ex=65be2830&is=65abb330&hm=3c34b82fb9e7f4af5f696d0b498d22376a534dc9cb446c90cf2f71a554a8d498&");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -251,4 +251,16 @@ background-image: url("https://media.discordapp.net/attachments/1198169629646925
 }
 .daag{
     padding-top: 150px;
+}
+.signupbut{
+    background-color: rgb(255, 228, 72);
+    position: relative;
+    left: 20rem;
+    border-radius: 10%;
+}
+.policypencilimg{
+    height: 100px;
+    width: auto;
+    position: relative;
+    left: 50px;
 }
