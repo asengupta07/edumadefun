@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/890/539/769/science-mathematics-equations-3d-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.chat-interface {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 35vw;
+    
+    background-color: #8056be;
+    border-radius: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-start;
+    background-color: #4e2a84;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user {
+    background-color: #6c3ca6;
+    align-self: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.ai {
+    background-color: #8b5fc1;
+    align-self: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-input {
+    display: flex;
+    align-items: center;
+    background-color: #6638aa;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #3f206e;
+    color: #fff;
+    box-shadow: 0 0 5px #8b5fc1;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.chat-input button {
+    padding: 5px 10px;
+    background-color: #6c3ca6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* Responsive Styles */
+
+.chat-input input[type="text"] {
+    height: 5vh; /* Increase the height to your desired value */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.chat-input button {
+    height: 6vh; /* Set the height to 40% of the viewport height */
+    padding: 5px 10px;
+    background-color: #6c3ca6;
+    border: none;
+    border-radius: 5%;
+    color: white;
+}
+
+
+.chat-interface {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 35vw;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 5%;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.chat-input button {
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.chat-interface {
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.chat-interface::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-messages {
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.chat-messages::-webkit-scrollbar {
+    display: none; 
+}
+
+@media (max-width: 768px) {
+    .chat-interface {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0;
+    }
+    .chat-input {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .chat-input input[type="text"] {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
