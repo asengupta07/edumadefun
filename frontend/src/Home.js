@@ -31,7 +31,7 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="#section2">Know More</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link active" href="/">Go Premium</a>
+          <a class="nav-link active" href="https://cdn.discordapp.com/attachments/1198169629646925824/1198267629970935889/WhatsApp_Image_2024-01-20_at_7.36.24_PM.jpeg?ex=65be48b1&is=65abd3b1&hm=0caa67804440abd6ea099fd1736185819b165023bcd5aa1adace0cce119205a5&" target='_blank'>Go Premium</a>
         </li>
         <li class="nav-item me-3">
           <a

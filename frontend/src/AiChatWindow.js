@@ -187,7 +187,7 @@ const ChatInterface = () => {
             points(rand, localStorage.getItem('USER'));
             let p = await get_points(localStorage.getItem('USER'));
             console.log(p);
-            return "Your score is " + score + `. Thanks for playing!\nYou just won ${rand} points! You have 7 points now! Would you like to retake the quiz?`;
+            return "Your score is " + score + `. Thanks for playing!\nYou just won ${rand} points! You have total 7 points now! Grind on to unlock an exclusive handwritten notes at just 100 points! (just 93 more to go!) Would you like to retake the quiz?`;
         }
         if(i === 11){
             if ((lowercasePrompt.includes('yes') || lowercasePrompt.includes('sure') || lowercasePrompt.includes('ok') || lowercasePrompt.includes('okay') || lowercasePrompt.includes('yeah') || lowercasePrompt.includes('yep') || lowercasePrompt.includes('yup') || lowercasePrompt.includes('yea'))) {
