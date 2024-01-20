@@ -264,3 +264,10 @@ background-image: url("https://media.discordapp.net/attachments/1198169629646925
     position: relative;
     left: 50px;
 }
+.vr{
+    position: relative;
+    left: 30px;
+    background-color: black;
+    opacity: 100%;
+    width: 2px;
+}

@@ -140,13 +140,22 @@ const LandingPage = () => {
           <div className='PolicyHead'>Policy</div>
           <div className='PointsPencils d-flex flex-column'>
 
-          <div className='policypencil'>
+          <div className='policypencil d-flex flex-row'>
+          <div className='vr'>
+            
+          </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
           </div>
-          <div className='policyp encil'>
+          <div className='policypencil d-flex flex-row'>
+          <div className='vr'>
+            
+            </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
           </div>
-          <div className='policypencil'>
+          <div className='policypencil d-flex flex-row'>
+          <div className='vr'>
+            
+            </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
           </div>
           </div>
