@@ -31,22 +31,24 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="#section2">Know More</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link active" href="#section3">Go Premium</a>
+          <a class="nav-link active" href="/">Go Premium</a>
         </li>
         <li class="nav-item me-3">
           <a
             class="nav-link active"
-            href="#section4"
+            href="#section3"
             role="button"
           >
             For Tutors
           </a>
           
         </li>
-        
+        <li>
+
+      <a class="nav-link active signupbut" href="/signup" tabindex="-1" aria-disabled="true">Sign Up</a>
+        </li>
         
       </ul>
-      <a class="nav-link active" href="/signup" tabindex="-1" aria-disabled="true">Sign Up</a>
 
     </div>
   </div>
@@ -146,6 +148,7 @@ const LandingPage = () => {
             
           </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+            <div className='AboutTextSub'>Premium users will have access to free notes according to the subject of their choice , access to a leader national weekly updated scoreboard and challenges to win exciting prizes</div>
           </div>
           <div className='policypencil d-flex flex-row'>
           <div className='vr'>
@@ -159,6 +162,7 @@ const LandingPage = () => {
             
             </div>
             <img  className="policypencilimg"src="https://cdn.discordapp.com/attachments/1169346758636224614/1197882535582105610/WhatsApp_Image_2024-01-19_at_17.59.41_143d82a9-removebg-preview.png?ex=65bce20c&is=65aa6d0c&hm=0e88ee792534f7e3ffe875d14c789dba563177f09557b7b80b5b5a514506f0fe&" alt="" />
+            <div className='AboutTextSub'>We have provided difficulty level of 1 to 4 in the quiz . A user can choose any of the following level according to his comfort level</div>
           </div>
           </div>
         </div>
