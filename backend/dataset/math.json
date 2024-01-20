@@ -1,0 +1,618 @@
+[
+    {
+        "level": 1,
+        "question": "What is the sum of 5 and 7?",
+        "answer": "12",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "15"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If you have 3 apples and eat 1, how many apples do you have left?",
+        "answer": "2",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Solve: 4 + 6 =",
+        "answer": "10",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "14"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If a rectangle has a length of 8 units and a width of 3 units, what is its area?",
+        "answer": "24 square units",
+        "options": [
+            "15 square units",
+            "24 square units",
+            "30 square units",
+            "48 square units"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If 8 + 5 equals ____, which option is correct?",
+        "answer": "13",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the product of 3 and 4?",
+        "answer": "12",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "14"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If you have 6 candies and share them equally among 2 friends, how many candies does each friend get?",
+        "answer": "3",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Solve: 9 - 2 =",
+        "answer": "7",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If a square has a side length of 5 units, what is its area?",
+        "answer": "25 square units",
+        "options": [
+            "15 square units",
+            "20 square units",
+            "25 square units",
+            "30 square units"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which of the following numbers is even? Options: 9, 14, 17, 21",
+        "answer": "14",
+        "options": [
+            "9",
+            "14",
+            "17",
+            "21"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Divide 16 by 4. What is the quotient?",
+        "answer": "4",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Simplify: 2 × (3 + 5) =",
+        "answer": "16",
+        "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "If a triangle has all sides of equal length, what type of triangle is it?",
+        "answer": "Equilateral",
+        "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the value of 2 × 9?",
+        "answer": "18",
+        "options": [
+            "14",
+            "16",
+            "18",
+            "20"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Find the product of 7 and 9.",
+        "answer": "63",
+        "options": [
+            "45",
+            "54",
+            "63",
+            "72"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If the perimeter of a square is 20 units, what is the length of one side?",
+        "answer": "5 units",
+        "options": [
+            "3 units",
+            "4 units",
+            "5 units",
+            "6 units"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Simplify: 3 × (4 + 2) =",
+        "answer": "18",
+        "options": [
+            "12",
+            "15",
+            "18",
+            "21"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If a triangle has angles of 60°, 90°, and 30°, what type of triangle is it?",
+        "answer": "Right-angled",
+        "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the area of a rectangle with length 7 units and width 4 units?",
+        "answer": "28 square units",
+        "options": [
+            "20 square units",
+            "24 square units",
+            "28 square units",
+            "32 square units"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If the product of 6 and x is 54, what is the value of x?",
+        "answer": "9",
+        "options": [
+            "6",
+            "8",
+            "9",
+            "12"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Solve: 2y + 5 = 17",
+        "answer": "y = 6",
+        "options": [
+            "y = 4",
+            "y = 6",
+            "y = 8",
+            "y = 10"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "The perimeter of a rectangle is 18 units, and its length is 5 units. What is its width?",
+        "answer": "4 units",
+        "options": [
+            "2 units",
+            "3 units",
+            "4 units",
+            "5 units"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If a triangle has angles of 45°, 45°, and 90°, what type of triangle is it?",
+        "answer": "Isosceles",
+        "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Find the value of x in the equation: 3x - 7 = 8",
+        "answer": "x = 5",
+        "options": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If a circle has a diameter of 10 units, what is its radius?",
+        "answer": "5 units",
+        "options": [
+            "3 units",
+            "5 units",
+            "7 units",
+            "10 units"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the sum of the interior angles of a hexagon?",
+        "answer": "720 degrees",
+        "options": [
+            "540 degrees",
+            "630 degrees",
+            "720 degrees",
+            "810 degrees"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "If a square has an area of 36 square units, what is the length of one side?",
+        "answer": "6 units",
+        "options": [
+            "4 units",
+            "6 units",
+            "8 units",
+            "10 units"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Simplify: 4 × (3 + 2) =",
+        "answer": "20",
+        "options": [
+            "15",
+            "18",
+            "20",
+            "24"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Solve the equation: 2x - 5 = 11",
+        "answer": "x = 8",
+        "options": [
+            "x = 6",
+            "x = 8",
+            "x = 10",
+            "x = 12"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If a circle has a radius of 4 units, what is its circumference? (Use π as 3.14)",
+        "answer": "25.12 units",
+        "options": [
+            "12.56 units",
+            "18.84 units",
+            "25.12 units",
+            "31.4 units"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Find the value of x in the equation: 3x + 7 = 22",
+        "answer": "x = 5",
+        "options": [
+            "x = 3",
+            "x = 5",
+            "x = 7",
+            "x = 9"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If a rectangle has a perimeter of 18 units and a length of 5 units, what is its width?",
+        "answer": "4 units",
+        "options": [
+            "2 units",
+            "3 units",
+            "4 units",
+            "5 units"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Solve the equation: 3x - 8 = 16",
+        "answer": "x = 8",
+        "options": [
+            "x = 4",
+            "x = 6",
+            "x = 8",
+            "x = 10"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If the sum of three consecutive integers is 57, what is the middle integer?",
+        "answer": "19",
+        "options": [
+            "17",
+            "19",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Find the value of y in the equation: 2y + 6 = 18",
+        "answer": "y = 6",
+        "options": [
+            "y = 4",
+            "y = 6",
+            "y = 8",
+            "y = 10"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "The area of a right-angled triangle is 24 square units, and one leg is 6 units. What is the length of the other leg?",
+        "answer": "8 units",
+        "options": [
+            "4 units",
+            "6 units",
+            "8 units",
+            "10 units"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Simplify: 5a + 2a - 3a =",
+        "answer": "4a",
+        "options": [
+            "2a",
+            "4a",
+            "6a",
+            "8a"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If a rectangle has a length of (x + 3) units and a width of (x - 2) units, what is its area?",
+        "answer": "x^2 + x - 6",
+        "options": [
+            "x^2 - x - 6",
+            "x^2 + x - 6",
+            "x^2 - x + 6",
+            "x^2 + x + 6"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "The sum of the angles in a quadrilateral is 360 degrees. If three angles are 90°, 100°, and 70°, what is the measure of the fourth angle?",
+        "answer": "100 degrees",
+        "options": [
+            "80 degrees",
+            "90 degrees",
+            "100 degrees",
+            "110 degrees"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If a cone has a slant height of 10 units and a radius of 8 units, what is its lateral surface area? (Use π as 3.14)",
+        "answer": "251.2 square units",
+        "options": [
+            "201.6 square units",
+            "225.5 square units",
+            "251.2 square units",
+            "276.9 square units"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Find the value of x in the equation: 2x^2 + 5x - 3 = 0",
+        "answer": "x = 1",
+        "options": [
+            "x = -1",
+            "x = 1",
+            "x = -3",
+            "x = 3"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "If a square has a diagonal of 10 units, what is the length of one side?",
+        "answer": "5√2 units",
+        "options": [
+            "4√2 units",
+            "5√2 units",
+            "6√2 units",
+            "7√2 units"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the derivative of f(x) = 3x^2 + 2x + 1?",
+        "answer": "f'(x) = 6x + 2",
+        "options": [
+            "f'(x) = 2x + 2",
+            "f'(x) = 3x^2 + 2x",
+            "f'(x) = 6x + 2",
+            "f'(x) = 6x^2 + 2"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Solve the system of equations: 2x + y = 8, 3x - y = 6",
+        "answer": "x = 2, y = 4",
+        "options": [
+            "x = 1, y = 3",
+            "x = 2, y = 4",
+            "x = 3, y = 5",
+            "x = 4, y = 6"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "If a cone has a radius of 6 units and a height of 8 units, what is its volume? (Use π as 3.14)",
+        "answer": "150.72 cubic units",
+        "options": [
+            "75.36 cubic units",
+            "100.48 cubic units",
+            "125.6 cubic units",
+            "150.72 cubic units"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Evaluate the integral: ∫(2x + 3)dx from 1 to 4",
+        "answer": "21",
+        "options": [
+            "12",
+            "15",
+            "18",
+            "21"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Find the derivative of f(x) = e^x + 2x^2 - 5",
+        "answer": "f'(x) = e^x + 4x",
+        "options": [
+            "f'(x) = e^x - 2x",
+            "f'(x) = e^x + 2x",
+            "f'(x) = e^x + 4x",
+            "f'(x) = e^x - 4x"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "If a box has dimensions of 4 units by 6 units by 8 units, what is its volume?",
+        "answer": "192 cubic units",
+        "options": [
+            "120 cubic units",
+            "144 cubic units",
+            "168 cubic units",
+            "192 cubic units"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Solve the system of equations: 3x + 4y = 10, 2x - y = 3",
+        "answer": "x = 2, y = 1",
+        "options": [
+            "x = 1, y = 2",
+            "x = 2, y = 1",
+            "x = 3, y = 0",
+            "x = 4, y = -1"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "The surface area of a sphere is 100π square units. What is its radius?",
+        "answer": "5 units",
+        "options": [
+            "4 units",
+            "5 units",
+            "6 units",
+            "7 units"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Evaluate the integral: ∫(4x^3 + 2x^2 - 3x + 1)dx",
+        "answer": "x^4 + (2/3)x^3 - (3/2)x^2 + x + C",
+        "options": [
+            "x^4 + (1/3)x^3 - (3/2)x^2 + x + C",
+            "x^4 + (2/3)x^3 - (3/2)x^2 + x + C",
+            "x^4 + (1/3)x^3 - 2x^2 + x + C",
+            "x^4 + (2/3)x^3 - 2x^2 + x + C"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "If a cylinder has a radius of 3 units and a height of 10 units, what is its lateral surface area? (Use π as 3.14)",
+        "answer": "94.2 square units",
+        "options": [
+            "75.6 square units",
+            "84.6 square units",
+            "94.2 square units",
+            "103.6 square units"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "The sum of an infinite geometric series is 20, and the common ratio is 1/2. What is the first term?",
+        "answer": "40",
+        "options": [
+            "20",
+            "30",
+            "40",
+            "50"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "If f(x) = x^2 + 4x + 4, what is the value of f''(x)?",
+        "answer": "2",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "If a parabola is given by the equation y = ax^2 + bx + c, what is the vertex of the parabola?",
+        "answer": "(-b/2a, c - b^2/4a)",
+        "options": [
+            "(-b/2a, c)",
+            "(-b/2a, c + b^2/4a)",
+            "(-b/2a, c - b^2/2a)",
+            "(-b/2a, c - b^2/4a)"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Evaluate the limit as x approaches 2: lim (x^2 - 4) / (x - 2)",
+        "answer": "4",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+]

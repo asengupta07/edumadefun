@@ -1,0 +1,772 @@
+[
+    {
+        "level": 1,
+        "question": "What is the plural form of 'book'?",
+        "answer": "books",
+        "options": [
+            "book",
+            "books",
+            "bookes",
+            "boox"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which word is a synonym for 'happy'?",
+        "answer": "joyful",
+        "options": [
+            "sad",
+            "joyful",
+            "angry",
+            "tired"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Choose the correct spelling: 'accommodate' or 'accomodate'?",
+        "answer": "accommodate",
+        "options": [
+            "accommodate",
+            "accomodate",
+            "acommadate",
+            "acommmodate"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the opposite of 'dark'?",
+        "answer": "light",
+        "options": [
+            "heavy",
+            "bright",
+            "light",
+            "gloomy"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Identify the adverb in the sentence: 'She sings beautifully.'",
+        "answer": "beautifully",
+        "options": [
+            "beautiful",
+            "sing",
+            "she",
+            "beautifully"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Choose the correct form of the verb: 'I ____ to the store yesterday.'",
+        "answer": "went",
+        "options": [
+            "go",
+            "gone",
+            "went",
+            "going"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the plural of 'child'?",
+        "answer": "children",
+        "options": [
+            "childs",
+            "childrens",
+            "childes",
+            "children"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which sentence is grammatically correct?",
+        "answer": "She has a cat and a dog.",
+        "options": [
+            "She has a cat and a dog.",
+            "She have a cat and a dog.",
+            "She has a cat and dog.",
+            "She have a cat and dog."
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the past tense of 'run'?",
+        "answer": "ran",
+        "options": [
+            "runned",
+            "run",
+            "ran",
+            "running"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Choose the correct form of the adjective: 'big'",
+        "answer": "bigger",
+        "options": [
+            "big",
+            "bigger",
+            "biggest",
+            "biger"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the synonym for 'happy'?",
+        "answer": "joyful",
+        "options": [
+            "sad",
+            "joyful",
+            "angry",
+            "tired"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Identify the noun in the sentence: 'The cat chased the mouse.'",
+        "answer": "cat",
+        "options": [
+            "cat",
+            "chased",
+            "mouse",
+            "the"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Choose the correct form of 'there': '____ are two apples on the table.'",
+        "answer": "there",
+        "options": [
+            "their",
+            "there",
+            "they're",
+            "thier"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the opposite of 'fast'?",
+        "answer": "slow",
+        "options": [
+            "quick",
+            "speedy",
+            "slow",
+            "rapid"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Identify the conjunction in the sentence: 'I like both ice cream and cake.'",
+        "answer": "and",
+        "options": [
+            "I",
+            "like",
+            "both",
+            "and"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Choose the correct preposition: 'The book is ____ the shelf.'",
+        "answer": "on",
+        "options": [
+            "at",
+            "on",
+            "in",
+            "by"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the meaning of the phrase 'break a leg'?",
+        "answer": "good luck",
+        "options": [
+            "good luck",
+            "get well soon",
+            "take a break",
+            "do your best"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Identify the correct homophone: 'your' or 'you're'?",
+        "answer": "you're",
+        "options": [
+            "your",
+            "you're",
+            "yore",
+            "yure"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the correct form of the comparative adjective: 'happy'?",
+        "answer": "happier",
+        "options": [
+            "happy",
+            "more happy",
+            "happiest",
+            "happier"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Choose the correct form of 'its' or 'it's' in the sentence: '____ a beautiful day.'",
+        "answer": "It's",
+        "options": [
+            "Its",
+            "It's",
+            "Its'",
+            "Itis"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Identify the antonym of 'strong'.",
+        "answer": "weak",
+        "options": [
+            "powerful",
+            "strong",
+            "solid",
+            "weak"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the plural form of 'cactus'?",
+        "answer": "cacti",
+        "options": [
+            "cactuses",
+            "cacti",
+            "cactus",
+            "cactis"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Choose the correct form of the verb: 'He ____ the guitar every day.'",
+        "answer": "plays",
+        "options": [
+            "playing",
+            "played",
+            "plays",
+            "playes"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the meaning of the idiom 'hit the nail on the head'?",
+        "answer": "to describe exactly what is causing a situation or problem",
+        "options": [
+            "to hit someone",
+            "to miss an opportunity",
+            "to avoid a situation",
+            "to describe exactly what is causing a situation or problem"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the meaning of the word 'exaggerate'?",
+        "answer": "to overstate",
+        "options": [
+            "to understate",
+            "to emphasize",
+            "to overstate",
+            "to simplify"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Choose the correct homophone: 'their', 'there', or 'they're'?",
+        "answer": "their",
+        "options": [
+            "their",
+            "there",
+            "they're",
+            "thier"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which sentence uses the subjunctive mood?",
+        "answer": "I wish I were there.",
+        "options": [
+            "I wish I am there.",
+            "I wish I was there.",
+            "I wish I were there.",
+            "I wish I be there."
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Identify the antonym of 'brave'.",
+        "answer": "cowardly",
+        "options": [
+            "fearful",
+            "bravery",
+            "cowardly",
+            "courageous"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the correct form of the possessive pronoun in this sentence: 'This is ____ book.'",
+        "answer": "my",
+        "options": [
+            "me",
+            "mine",
+            "my",
+            "I"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Choose the correct punctuation: 'I love pizza however I don't eat it often.'",
+        "answer": "I love pizza; however, I don't eat it often.",
+        "options": [
+            "I love pizza, however I don't eat it often.",
+            "I love pizza; however, I don't eat it often.",
+            "I love pizza however I don't eat it often",
+            "I love pizza. However, I don't eat it often."
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the plural form of 'ox'?",
+        "answer": "oxen",
+        "options": [
+            "oxs",
+            "oxen",
+            "oxes",
+            "oxies"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which sentence is in the active voice?",
+        "answer": "The cat chased the mouse.",
+        "options": [
+            "The mouse was chased by the cat.",
+            "The mouse was being chased by the cat.",
+            "The cat was chasing the mouse.",
+            "The cat chased the mouse."
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the function of a semicolon in a sentence?",
+        "answer": "to connect closely related independent clauses",
+        "options": [
+            "to separate items in a list",
+            "to connect closely related independent clauses",
+            "to introduce a quotation",
+            "to end a sentence"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct form of the verb: 'She _____ for hours yesterday.'",
+        "answer": "read",
+        "options": [
+            "read",
+            "reads",
+            "reading",
+            "readed"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Identify the gerund in the sentence: 'Swimming is my favorite activity.'",
+        "answer": "Swimming",
+        "options": [
+            "Swimming",
+            "is",
+            "favorite",
+            "activity"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the meaning of the idiom 'kick the bucket'?",
+        "answer": "to die",
+        "options": [
+            "to take a break",
+            "to succeed",
+            "to die",
+            "to play a sport"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct preposition: 'I am allergic ____ cats.'",
+        "answer": "to",
+        "options": [
+            "with",
+            "to",
+            "for",
+            "on"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which sentence is written in the passive voice?",
+        "answer": "The novel was written by the author.",
+        "options": [
+            "The author wrote the novel.",
+            "The novel was written by the author.",
+            "The author was writing the novel.",
+            "The novel wrote the author."
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Identify the correct form of the comparative adjective: 'good'",
+        "answer": "better",
+        "options": [
+            "gooder",
+            "more good",
+            "better",
+            "best"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the correct form of the possessive pronoun in this sentence: 'This is not ____ fault.'",
+        "answer": "my",
+        "options": [
+            "me",
+            "mine",
+            "my",
+            "I"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the meaning of the word 'ubiquitous'?",
+        "answer": "present, appearing, or found everywhere",
+        "options": [
+            "limited to one area",
+            "difficult to understand",
+            "present, appearing, or found everywhere",
+            "focused on one task"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct conjunction: 'I like both tea ____ coffee.'",
+        "answer": "and",
+        "options": [
+            "or",
+            "and",
+            "but",
+            "nor"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Identify the correct form of the verb in the sentence: 'They have been swimming all morning.'",
+        "answer": "have been swimming",
+        "options": [
+            "swimming",
+            "have swimming",
+            "been swimming",
+            "have been swimming"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the meaning of the word 'ubiquitous'?",
+        "answer": "present, appearing, or found everywhere",
+        "options": [
+            "limited to one area",
+            "difficult to understand",
+            "present, appearing, or found everywhere",
+            "focused on one task"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct conjunction: 'I prefer tea ____ coffee.'",
+        "answer": "to",
+        "options": [
+            "or",
+            "and",
+            "to",
+            "but"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Identify the correct form of the past perfect tense in the sentence: 'She had already finished her homework when I called.'",
+        "answer": "had finished",
+        "options": [
+            "finished",
+            "had finished",
+            "have finished",
+            "has finished"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the purpose of an ellipsis (...) in a sentence?",
+        "answer": "to indicate omitted words or a pause",
+        "options": [
+            "to emphasize a point",
+            "to indicate possession",
+            "to indicate omitted words or a pause",
+            "to separate items in a list"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct preposition: 'The cat is sitting ____ the roof.'",
+        "answer": "on",
+        "options": [
+            "at",
+            "in",
+            "on",
+            "over"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Identify the gerund in the sentence: 'Hiking is an enjoyable outdoor activity.'",
+        "answer": "hiking",
+        "options": [
+            "hike",
+            "enjoyable",
+            "activity",
+            "hiking"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Choose the correct form of the adjective: 'intelligent'",
+        "answer": "more intelligent",
+        "options": [
+            "intelligent",
+            "intelligenter",
+            "more intelligent",
+            "most intelligent"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the definition of 'oxymoron'?",
+        "answer": "a figure of speech in which apparently contradictory terms appear in conjunction",
+        "options": [
+            "a foolish person",
+            "a complex machine",
+            "a figure of speech in which apparently contradictory terms appear in conjunction",
+            "a type of chemical reaction"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the future perfect tense in the sentence: 'By next year, she ____ the novel.'",
+        "answer": "will have finished",
+        "options": [
+            "will finish",
+            "will have finished",
+            "will be finishing",
+            "will had finished"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the purpose of a colon (:) in a sentence?",
+        "answer": "to introduce a list or explanation",
+        "options": [
+            "to end a sentence",
+            "to introduce a question",
+            "to separate items in a list",
+            "to introduce a list or explanation"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the adverb: 'hard'",
+        "answer": "hardly",
+        "options": [
+            "hard",
+            "harder",
+            "hardly",
+            "hardest"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Choose the correct form of 'whose' or 'who's' in the sentence: '____ going to the party?'",
+        "answer": "Who's",
+        "options": [
+            "Whos",
+            "Whose",
+            "Who's",
+            "Whois"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the present perfect continuous tense in the sentence: 'They ____ for three hours.'",
+        "answer": "have been studying",
+        "options": [
+            "studying",
+            "have studying",
+            "are studying",
+            "have been studying"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the meaning of the word 'cacophony'?",
+        "answer": "a harsh, discordant mixture of sounds",
+        "options": [
+            "a soothing melody",
+            "a collection of poems",
+            "a harsh, discordant mixture of sounds",
+            "a type of flower"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Choose the correct form of the adjective: 'superior'",
+        "answer": "more superior",
+        "options": [
+            "superior",
+            "superiorest",
+            "more superior",
+            "most superior"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the purpose of a hyphen (-) in a word?",
+        "answer": "to join words or parts of words",
+        "options": [
+            "to end a sentence",
+            "to separate items in a list",
+            "to indicate possession",
+            "to join words or parts of words"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the subjunctive mood: 'If I ____ a millionaire.'",
+        "answer": "were",
+        "options": [
+            "am",
+            "were",
+            "be",
+            "being"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the definition of 'onomatopoeia'?",
+        "answer": "the formation of a word from a sound associated with what is named",
+        "options": [
+            "a type of metaphor",
+            "the repetition of vowel sounds",
+            "the formation of a word from a sound associated with what is named",
+            "a form of hyperbole"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the past perfect tense in the sentence: 'She had already eaten dinner when he arrived.'",
+        "answer": "had eaten",
+        "options": [
+            "have eaten",
+            "ate",
+            "had eaten",
+            "has eaten"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the purpose of an apostrophe in a contraction?",
+        "answer": "to indicate missing letters",
+        "options": [
+            "to emphasize a point",
+            "to indicate possession",
+            "to indicate missing letters",
+            "to separate items in a list"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the hyperbole in the sentence: 'I've told you a million times.'",
+        "answer": "a million times",
+        "options": [
+            "I've",
+            "told",
+            "you",
+            "a million times"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Choose the correct form of the verb: 'I ____ studying for hours when you called.'",
+        "answer": "had been",
+        "options": [
+            "was",
+            "have been",
+            "had been",
+            "have being"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the meaning of the word 'ephemeral'?",
+        "answer": "lasting for a very short time",
+        "options": [
+            "lasting for a very short time",
+            "existing eternally",
+            "related to elephants",
+            "extremely famous"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the superlative adjective: 'far'",
+        "answer": "farthest",
+        "options": [
+            "farest",
+            "farther",
+            "farthest",
+            "further"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Choose the correct form of the subjunctive mood: 'If I ____ a bird.'",
+        "answer": "were",
+        "options": [
+            "am",
+            "were",
+            "be",
+            "being"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the purpose of a rhetorical question?",
+        "answer": "to make a point rather than to elicit an answer",
+        "options": [
+            "to seek information",
+            "to encourage discussion",
+            "to make a point rather than to elicit an answer",
+            "to express uncertainty"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Identify the correct form of the infinitive: 'to run'",
+        "answer": "to run",
+        "options": [
+            "run",
+            "running",
+            "to run",
+            "ran"
+        ]
+    }
+]

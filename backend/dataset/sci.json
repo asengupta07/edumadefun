@@ -1,0 +1,618 @@
+[
+    {
+        "level": 1,
+        "question": "What is the primary function of the heart?",
+        "answer": "pumping blood",
+        "options": [
+            "digesting food",
+            "filtering air",
+            "pumping blood",
+            "producing energy"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which gas do plants absorb from the air during photosynthesis?",
+        "answer": "carbon dioxide",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "hydrogen"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the main component of the Earth's atmosphere?",
+        "answer": "nitrogen",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "helium"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which planet is known as the 'Red Planet'?",
+        "answer": "Mars",
+        "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the process by which water changes from a liquid to a gas?",
+        "answer": "evaporation",
+        "options": [
+            "condensation",
+            "evaporation",
+            "precipitation",
+            "sublimation"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which sense organ is responsible for hearing?",
+        "answer": "ear",
+        "options": [
+            "eye",
+            "ear",
+            "nose",
+            "tongue"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the chemical symbol for water?",
+        "answer": "H2O",
+        "options": [
+            "CO2",
+            "O2",
+            "H2O",
+            "N2"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which force pulls objects towards the center of the Earth?",
+        "answer": "gravity",
+        "options": [
+            "magnetism",
+            "friction",
+            "gravity",
+            "tension"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the process of plants taking in water through their roots called?",
+        "answer": "absorption",
+        "options": [
+            "photosynthesis",
+            "transpiration",
+            "absorption",
+            "respiration"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which gas do humans primarily exhale during respiration?",
+        "answer": "carbon dioxide",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "hydrogen"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the largest planet in our solar system?",
+        "answer": "Jupiter",
+        "options": [
+            "Mars",
+            "Saturn",
+            "Jupiter",
+            "Neptune"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Which sense organ is responsible for the sense of smell?",
+        "answer": "nose",
+        "options": [
+            "ear",
+            "eye",
+            "nose",
+            "tongue"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the chemical symbol for oxygen?",
+        "answer": "O2",
+        "options": [
+            "CO2",
+            "O2",
+            "H2O",
+            "N2"
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What is the force that pulls objects towards the center of the Earth?",
+        "answer": "gravity",
+        "options": [
+            "magnetism",
+            "friction",
+            "gravity",
+            "tension"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the process by which water vapor in the air turns into liquid water?",
+        "answer": "condensation",
+        "options": [
+            "evaporation",
+            "condensation",
+            "sublimation",
+            "precipitation"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which gas is responsible for the greenhouse effect on Earth?",
+        "answer": "carbon dioxide",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "methane"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the function of the nucleus in a cell?",
+        "answer": "containing genetic material",
+        "options": [
+            "producing energy",
+            "breaking down waste",
+            "containing genetic material",
+            "synthesizing proteins"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+        "answer": "Venus",
+        "options": [
+            "Mars",
+            "Venus",
+            "Mercury",
+            "Jupiter"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the process by which rocks are broken down into smaller particles by weathering?",
+        "answer": "erosion",
+        "options": [
+            "deposition",
+            "erosion",
+            "sedimentation",
+            "volcanism"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which part of the human brain is associated with memory and learning?",
+        "answer": "hippocampus",
+        "options": [
+            "cerebellum",
+            "amygdala",
+            "hippocampus",
+            "medulla oblongata"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the process by which plants make their own food using sunlight?",
+        "answer": "photosynthesis",
+        "options": [
+            "respiration",
+            "digestion",
+            "photosynthesis",
+            "transpiration"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which organelle is known as the 'powerhouse' of the cell?",
+        "answer": "mitochondria",
+        "options": [
+            "nucleus",
+            "endoplasmic reticulum",
+            "mitochondria",
+            "chloroplast"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the chemical formula for glucose?",
+        "answer": "C6H12O6",
+        "options": [
+            "CO2",
+            "O2",
+            "C6H12O6",
+            "H2O"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the largest planet in our solar system?",
+        "answer": "Jupiter",
+        "options": [
+            "Mars",
+            "Saturn",
+            "Jupiter",
+            "Neptune"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which type of rock is formed from the cooling and solidification of magma or lava?",
+        "answer": "igneous",
+        "options": [
+            "sedimentary",
+            "igneous",
+            "metamorphic",
+            "weathered"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the function of red blood cells in the human body?",
+        "answer": "transporting oxygen",
+        "options": [
+            "fighting infections",
+            "producing antibodies",
+            "transporting oxygen",
+            "filtering toxins"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is the main component of the Earth's core?",
+        "answer": "iron",
+        "options": [
+            "nickel",
+            "aluminum",
+            "iron",
+            "copper"
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which gas do humans exhale during respiration?",
+        "answer": "carbon dioxide",
+        "options": [
+            "oxygen",
+            "nitrogen",
+            "carbon dioxide",
+            "methane"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the basic unit of life?",
+        "answer": "cell",
+        "options": [
+            "molecule",
+            "organ",
+            "cell",
+            "tissue"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which gas makes up the largest percentage of the Earth's atmosphere?",
+        "answer": "nitrogen",
+        "options": [
+            "oxygen",
+            "carbon dioxide",
+            "nitrogen",
+            "argon"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the process by which an organism's genetic material is copied?",
+        "answer": "DNA replication",
+        "options": [
+            "transcription",
+            "translation",
+            "mutation",
+            "DNA replication"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the Earth's primary source of energy for weather and climate?",
+        "answer": "the Sun",
+        "options": [
+            "wind",
+            "ocean currents",
+            "the Moon",
+            "the Sun"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which organelle is responsible for packaging and distributing materials within the cell?",
+        "answer": "Golgi apparatus",
+        "options": [
+            "endoplasmic reticulum",
+            "Golgi apparatus",
+            "lysosome",
+            "ribosome"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the chemical formula for methane?",
+        "answer": "CH4",
+        "options": [
+            "CO2",
+            "O2",
+            "CH4",
+            "H2O"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the function of the respiratory system in the human body?",
+        "answer": "exchange of gases",
+        "options": [
+            "pumping blood",
+            "digesting food",
+            "exchange of gases",
+            "filtering air"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which scientist is known for the theory of relativity?",
+        "answer": "Albert Einstein",
+        "options": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Marie Curie",
+            "Albert Einstein"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the process by which plants lose water vapor to the atmosphere?",
+        "answer": "transpiration",
+        "options": [
+            "respiration",
+            "transpiration",
+            "photosynthesis",
+            "evaporation"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the function of the mitochondria in a cell?",
+        "answer": "producing energy (ATP)",
+        "options": [
+            "protein synthesis",
+            "cell division",
+            "producing energy (ATP)",
+            "storage of genetic material"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which gas is responsible for the characteristic color of the Earth's atmosphere during a sunset?",
+        "answer": "nitrogen dioxide",
+        "options": [
+            "ozone",
+            "carbon monoxide",
+            "nitrogen dioxide",
+            "methane"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the process by which a cell divides into two identical daughter cells?",
+        "answer": "mitosis",
+        "options": [
+            "meiosis",
+            "mitosis",
+            "cytokinesis",
+            "fertilization"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which part of the human eye is responsible for focusing light onto the retina?",
+        "answer": "lens",
+        "options": [
+            "cornea",
+            "retina",
+            "iris",
+            "lens"
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the term for the gradual change in species over time?",
+        "answer": "evolution",
+        "options": [
+            "adaptation",
+            "mutation",
+            "evolution",
+            "natural selection"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the process by which an unstable atomic nucleus loses energy by emitting radiation?",
+        "answer": "radioactive decay",
+        "options": [
+            "nuclear fission",
+            "nuclear fusion",
+            "ionization",
+            "radioactive decay"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which law of thermodynamics states that energy cannot be created or destroyed, only transformed?",
+        "answer": "First Law of Thermodynamics",
+        "options": [
+            "Zeroth Law of Thermodynamics",
+            "Second Law of Thermodynamics",
+            "Third Law of Thermodynamics",
+            "First Law of Thermodynamics"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the phenomenon where light is bent as it passes through different mediums?",
+        "answer": "refraction",
+        "options": [
+            "reflection",
+            "diffraction",
+            "absorption",
+            "refraction"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the function of the cerebrum in the human brain?",
+        "answer": "conscious thought and voluntary actions",
+        "options": [
+            "regulating body temperature",
+            "processing sensory information",
+            "maintaining balance",
+            "conscious thought and voluntary actions"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which subatomic particle is responsible for the electrical conductivity of metals?",
+        "answer": "electrons",
+        "options": [
+            "protons",
+            "neutrons",
+            "electrons",
+            "positrons"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the term for the bending of Earth's atmosphere that causes stars to appear twinkling?",
+        "answer": "atmospheric refraction",
+        "options": [
+            "stellar aberration",
+            "luminosity distortion",
+            "astral deflection",
+            "atmospheric refraction"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the structure that connects the muscles to bones?",
+        "answer": "tendon",
+        "options": [
+            "ligament",
+            "tendon",
+            "cartilage",
+            "synapse"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which type of radiation has the shortest wavelength?",
+        "answer": "gamma rays",
+        "options": [
+            "ultraviolet rays",
+            "X-rays",
+            "gamma rays",
+            "microwaves"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the principle of conservation of energy?",
+        "answer": "energy cannot be created or destroyed, only transformed",
+        "options": [
+            "energy can be created and destroyed",
+            "energy is constant within a closed system",
+            "energy only exists in living organisms",
+            "energy cannot be created or destroyed, only transformed"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which process involves the conversion of glucose into energy within cells?",
+        "answer": "cellular respiration",
+        "options": [
+            "photosynthesis",
+            "cellular respiration",
+            "fermentation",
+            "glycolysis"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the function of the hypothalamus in the brain?",
+        "answer": "regulating body temperature and hunger",
+        "options": [
+            "controlling motor functions",
+            "processing visual information",
+            "regulating body temperature and hunger",
+            "emotional responses"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which particle is responsible for the electrical conductivity of metals?",
+        "answer": "electrons",
+        "options": [
+            "protons",
+            "neutrons",
+            "electrons",
+            "ions"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "What is the primary function of the endocrine system?",
+        "answer": "regulating hormones",
+        "options": [
+            "transporting blood",
+            "producing antibodies",
+            "regulating hormones",
+            "filtering toxins"
+        ]
+    },
+    {
+        "level": 4,
+        "question": "Which element is the most abundant in the Earth's crust?",
+        "answer": "oxygen",
+        "options": [
+            "silicon",
+            "aluminum",
+            "iron",
+            "oxygen"
+        ]
+    }
+]
