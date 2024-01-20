@@ -1,0 +1,257 @@
+.navbar {
+    position: fixed; /* Add this line */
+    top: 0; /* Add this line */
+    height: 80px;
+    display: inline-flex;
+    width: 100vw;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    animation: fade-in 1s;
+}
+
+@keyframes fade-inst {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.pencil {
+    
+    position: relative;
+    top: 115px;
+    left: 39px;
+    width: 250px;
+    height: 250px;
+    animation: rotatepencil 2s infinite linear, fade-inst 4s;
+    
+}
+.bulb {
+    position: relative;
+    bottom: 101px;
+    right: 89px;
+    width: 160px;
+    height: 160px;
+    animation: rotatebulb 2s infinite alternate, fade-inst 4s;
+}
+@keyframes rotatepencil {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes rotatebulb{
+    0% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+
+.first-view-container {
+    display: flex;
+    position: relative;
+    padding-top: 10rem;
+  }
+  
+.first-view-text{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+    font-weight: 700;
+    text-align: center;
+    animation: fade-in 1s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.first-view-text-small{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    animation: fade-in 2s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(LoftygoalsRegular-9Y5Xy.otf);
+  }
+.start-quiz{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    padding-top: 20vh;
+    font-weight: 700;
+    text-align: center;
+    animation: fade-inquiz 4s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-inquiz {
+    0% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.landing-page {
+    
+    
+}
+    
+.first-view{
+    display: flex;
+    background-image: url("/home/arnabs/code/edbot/ChatWindow/public/backgroundlandingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+
+.stationary{
+    
+    
+    height: 200px;
+    width: 200px;
+    
+
+}
+#section1 {
+    display: flex;
+    height: 100vh;
+background-image: url("/home/arnabs/code/edbot/ChatWindow/public/backgroundlandingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section2 {
+    display: flex;
+    height: 100vh;
+background-image: url("/home/arnabs/code/edbot/ChatWindow/public/backgroundlandingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section3 {
+    display: flex;
+    height: 100vh;
+background-image: url("/home/arnabs/code/edbot/ChatWindow/public/backgroundlandingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section4 {
+    display: flex;
+    height: 40vh;
+    background-color: black;
+
+}
+.scribbly1{
+    position: relative;
+    
+    bottom: 106px;
+
+}
+.scribbly2{
+    position: relative;
+    right: 83px;
+    top: 10px;
+    transform: rotate(180deg);
+}
+.AboutText{
+    font-family: myFirstFont;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    text-align: center;
+    animation: fade-inquiz 4s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.AboutTextSub{
+    
+    font-family: 'Poppins', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 150%;
+        text-align: center;
+        animation: fade-inquiz 4s;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
+}
+.abfoot{
+    position: relative;
+    bottom: 40px;
+    animation: fade-inquiz 4s;
+}
+.Mandala{
+    position: relative;
+    bottom: 100px;
+    left: -258px;
+    width: 300px;
+    height: 300px;
+    transform: scale(1.2);
+}
+.Mandala img {
+    
+    animation: spin 10s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.PolicyHead{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+}
+.PointsPencils{
+    position: relative;
+    bottom: 100px;
+}
+.daag{
+    padding-top: 150px;
+}
