@@ -1,7 +1,57 @@
 import React from 'react';
-import './signup.css'; // Make sure to import your CSS file
+import './signup.css';
 
 const App = () => {
+  const login = () => {
+    const logemail = document.getElementById('logemail').value;
+    const logpass = document.getElementById('logpass').value;
+    fetch('http://localhost:5000/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ logemail, logpass }),
+    }).then((res) => {
+      return res.json();
+    }).then((data) => {
+      if (data.success === true)
+      {
+        localStorage.setItem('USER', logemail);
+        window.location.href='/';
+      }
+      else
+      {
+        alert(data.message);
+      }
+    });
+  }
+
+  const register = () => {
+    const logname = document.getElementById('lognamer').value;
+    const logemail = document.getElementById('logemailr').value;
+    const logpass = document.getElementById('logpassr').value;
+    fetch('http://localhost:5000/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ logname, logemail, logpass }),
+    }).then((res) => {
+      console.log(res);
+      return res.json();
+    }).then((data) => {
+      if (data.success === true)
+      {
+        window.location.href='/';
+      }
+      else
+      {
+        alert(data.message);
+      }
+    });
+  }
+
+
   return (
     <>
       <a href="/" className="logo">
@@ -52,7 +102,7 @@ const App = () => {
                             />
                             <i className="input-icon uil uil-lock-alt"></i>
                           </div>
-                          <a href="#" className="btn mt-4">
+                          <a onClick={login} className="btn mt-4">
                             submit
                           </a>
                           <p className="mb-0 mt-4 text-center">
@@ -73,7 +123,7 @@ const App = () => {
                               name="logname"
                               className="form-style"
                               placeholder="Your Full Name"
-                              id="logname"
+                              id="lognamer"
                               autoComplete="off"
                             />
                             <i className="input-icon uil uil-user"></i>
@@ -84,7 +134,7 @@ const App = () => {
                               name="logemail"
                               className="form-style"
                               placeholder="Your Email"
-                              id="logemail"
+                              id="logemailr"
                               autoComplete="off"
                             />
                             <i className="input-icon uil uil-at"></i>
@@ -95,12 +145,12 @@ const App = () => {
                               name="logpass"
                               className="form-style"
                               placeholder="Your Password"
-                              id="logpass"
+                              id="logpassr"
                               autoComplete="off"
                             />
                             <i className="input-icon uil uil-lock-alt"></i>
                           </div>
-                          <a href="#" className="btn mt-4">
+                          <a onClick={register} className="btn mt-4">
                             submit
                           </a>
                         </div>
